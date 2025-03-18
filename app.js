@@ -10274,6 +10274,10 @@ app.get('/pavbaji', (req, res) => {
   res.json(data.pavbaji);
 });
 
+app.get('/',(req,res)=>{
+  res.send(1);
+});
+
 
 
 app.listen(port, () => {
