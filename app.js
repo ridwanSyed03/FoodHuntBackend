@@ -10238,6 +10238,11 @@ const data = {
     
 };
 
+app.get('/',(req,res)=>{
+  res.send('Welcome to the FoodHunt');
+});
+
+
 app.get('/briyani', (req, res) => {
   res.json(data.briyani);
 });
@@ -10274,9 +10279,6 @@ app.get('/pavbaji', (req, res) => {
   res.json(data.pavbaji);
 });
 
-app.get('/',(req,res)=>{
-  res.send(1);
-});
 
 
 
