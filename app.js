@@ -10240,7 +10240,7 @@ const data = {
 };
 
 app.use(cors({
-  origin: 'https://food-hunt-one.vercel.app/',
+  origin: 'https://food-hunt-one.vercel.app',
 }));
 
 app.get('/',(req,res)=>{
