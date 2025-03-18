@@ -10239,7 +10239,7 @@ const data = {
 };
 
 app.use(cors({
-  origin: 'https://food-hunt-one.vercel.app/',
+  origin: 'https://food-hunt-one.vercel.app/briyani',
 }));
 
 app.get('/',(req,res)=>{
